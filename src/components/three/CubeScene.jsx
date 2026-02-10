@@ -22,7 +22,7 @@ export default function CubeScene({ slide, holded }) {
         <>
             <video
                 ref={video1}
-                src="/videos/face3.mp4"
+                src="/videos/vid_3.mp4"
                 muted
                 loop
                 playsInline
@@ -32,7 +32,7 @@ export default function CubeScene({ slide, holded }) {
             />
             <video
                 ref={video2}
-                src="/videos/face1.mp4"
+                src="/videos/vid_1.mp4"
                 muted
                 playsInline
                 preload="auto"
@@ -41,7 +41,7 @@ export default function CubeScene({ slide, holded }) {
             />
             <video
                 ref={video3}
-                src="/videos/face2.mp4"
+                src="/videos/vid_2.mp4"
                 muted
                 playsInline
                 preload="auto"
@@ -50,7 +50,7 @@ export default function CubeScene({ slide, holded }) {
             />
             <video
                 ref={video4}
-                src="/videos/face3.mp4"
+                src="/videos/vid_3.mp4"
                 muted
                 playsInline
                 preload="auto"
